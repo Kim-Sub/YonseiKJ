@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>연세김앤정 정형외과</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta name='Title' content=''>
+<meta name='Subject' content=''>
+<meta name='Keywords' content=''>
+<meta name='Author' content=''>
+<meta name='Publisher' content=''>
+<meta name='Description' content=''>
+<meta name='Author-Date' content=''>
+<meta name='Copyright' content=''>
+<!-- 접근성 텍스트(skip) 숨김 -->
+<style>#skip{overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;}</style>
+<!-- 폰트어썸 -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+<!-- 구글폰트 아이콘 -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0' />
+<!-- CSS 리셋 -->
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'>
+<!-- 제이쿼리 3.7 CDN -->
+<script src='https://code.jquery.com/jquery-3.7.0.min.js' crossorigin='anonymous'></script>
+
+<!-- 타이핑js --><script src='./js/typed.js'></script>
+<!-- 로컬 CSS -->
+<link rel='stylesheet' href='./css/style.css'/>
+<!-- 로컬 js -->
+<script src='./js/script.js' defer></script>
+<script src='./js/script-index1.js' defer></script>
+</head>
+
+<body>
+<!-- 시각장애인 웹 접근성을 위한 skip _ 지우지않아도 됩니다. -->
+<ul id='skip'>
+   <li><a href='#header'>헤더 바로가기</a></li>
+   <li><a href='#nav'>메뉴 바로가기</a></li>
+   <li><a href='#content'>내용 바로가기</a></li>
+</ul>
+<!-- 본문을 작성하세요 -->
+<ul id="Pagination">
+   <li><a href="#index1">1</a></li>
+   <li><a href="#index2">2</a></li>
+   <li><a href="#index3">3</a></li>
+   <li><a href="#index4">4</a></li>
+   <li><a href="#index5">5</a></li>
+   <li><a href="#index6">6</a></li>
+   <li><a href="#index7">7</a></li>
+   <li><a href="#index8">8</a></li>
+</ul>
+
+<section id="index1">
+   <div class="video-Box">
+      <video src="./video/index1.mp4" autoplay loop muted></video>
+      <p id="video-Text" class="flexC"></p>
+         <script> // 타이핑 js (video-Text)
+            $('#video-Text').typed({
+                strings:['왜   연세김앤정인가   ?'],
+                typeSpeed:150,
+                loop:false,
+            })
+         </script>
+   </div>
+   
+   <div class="index1-Box">
+      <div class="Counting-Box flexC">
+         <p>내원 고객수</p>
+         <p id="NumberCustomers"></p>
+      </div>
+
+      <ul id="Nav-Bar">
+         <h1 class="flex"><a href="#index1" >LOGO</a></h1>
+         <li><a href="#index2">키크는수술</a></li>
+         <li><a href="#index3">특화연장기법</a></li>
+         <li><a href="#index4">60일 속성 9cm 키연장</a></li>   
+         <li><a href="#index5">논문</a></li>
+         <li><a href="#index6">키/팔수술 비용</a></li>
+         <li><a href="#index7">의료진소개</a></li>
+         <li><a href="#index8">하지연장 후기</a></li>
+      </ul>
+      <ul id="Scroll-Down">
+         <li> 
+             <p>SCROLL DOWN</p>
+         </li>
+     </ul>
+
+      <div class="index1-Content flexC">
+         <h1 class="enT mb160">YONSEI KIM & JEONG</h1>
+         <ul class="index1-PhotoBox">
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox01.jpg" alt="이미지1" class="clickable-img"></li>
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox02.jpg" alt="이미지2" class="clickable-img"></li>
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox03.jpg" alt="이미지3" class="clickable-img"></li>
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox04.jpg" alt="이미지4" class="clickable-img"></li>
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox05.jpg" alt="이미지5" class="clickable-img"></li>
+            <li><img src="./img/index1-PhotoBox/index1-PhotoBox06.jpg" alt="이미지6" class="clickable-img"></li>
+         </ul>
+         <div id="index1-PhotoBox-Modal" class="flexC">
+            <button id="close-btn">X</button>
+            <button class="PhotoBox-LB"><</button>
+            <button class="PhotoBox-RB">></button>
+            <h3 id="map-H3" class="mb30"></h3>
+            <img id="map-Img" class="mb30" src="" alt="">
+            <p id="map-P"></p>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+<section id="index2">
+   인덱스2
+</section>
+
+<section id="index3">
+   인덱스3
+</section>
+
+<section id="index4">
+   인덱스4
+</section>
+
+<section id="index5">
+   인덱스5
+</section>
+
+<section id="index6">
+   인덱스6
+</section>
+
+<section id="index7">
+   인덱스7
+</section>
+
+<section id="index8">
+   인덱스8
+</section>
+
+
+</body>
+</html>

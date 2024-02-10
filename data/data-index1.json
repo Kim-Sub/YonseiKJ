@@ -1,0 +1,32 @@
+[
+   {
+     "title": "연세김앤정 프론트 로비",
+     "src": "./img/index1-PhotoBox/index1-PhotoBox01.jpg",
+     "description": "환한 채광과 쾌적한 분위기, 철저한 소독으로 안심할 수 있는 로비"
+   },
+   {
+     "title": "프라이빗한 층별 공간",
+     "src": "./img/index1-PhotoBox/index1-PhotoBox02.jpg",
+     "description": "심신의 안정과 빠른 회복을 돕는 프라이빗한 플로어 라운지"
+   },
+   {
+     "title": "5성 호텔 쉐프의 다이닝",
+     "src": "./img/index1-PhotoBox/index1-PhotoBox03.jpg",
+     "description": "우리는 건강한 식습관과 활동적인 라이프스타일을 촉진하면서도, 즐거움과 만족을 주는 활동을 즐기는 것을 잊지 않습니다. "
+   },
+   {
+     "title": "편안한 침구와 넓은 객실",
+     "src": "./img/index1-PhotoBox/index1-PhotoBox04.jpg",
+     "description": "마음의 평온을 찾으며 휴식을 도모하고, 우리의 치유를 따뜻하게 감싸주는 공간"
+   },
+   {
+    "title": "대자연 산책로",
+    "src": "./img/index1-PhotoBox/index1-PhotoBox05.jpg",
+    "description": "병원 뒤에 펼쳐진 아름다운 산책로는 회복과 심신을 위한 온전한 치유의 공간으로 자리하고 있습니다. "
+  },
+   {
+    "title": "무균수술실",
+    "src": "./img/index1-PhotoBox/index1-PhotoBox06.jpg",
+    "description": "무균수술실은 안전과 신뢰의 보장으로 환자들에게 안심과 안정을 선사합니다."
+  }
+ ]
